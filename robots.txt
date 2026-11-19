@@ -1,0 +1,58 @@
+# robots.txt for Soharab Typeface (Cloudflare Pages)
+# Allow search crawlers and AI search agents to index all assets, specs, and docs
+
+User-agent: *
+Allow: /
+
+# Dedicated Search Engine & AI Agents
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI Crawlers & LLM Indexers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# LLM Discoverability
+# Machine-readable overview: /llms.txt
+# Comprehensive technical guide: /llms-full.txt
+
+Sitemap: https://sohrabzia.github.io/sitemap.xml
