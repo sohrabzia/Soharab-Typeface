@@ -180,57 +180,6 @@ npx wrangler pages dev .
 
 ---
 
-## ☁️ Cloudflare Pages Deployment
-
-### Method 1: Git Integration (Recommended)
-1. Push this repository to GitHub or GitLab.
-2. Go to the **Cloudflare Dashboard** > **Workers & Pages** > **Create application** > **Pages** > **Connect to Git**.
-3. Select your repository.
-4. Set the build configuration:
-   - **Framework preset:** `None`
-   - **Build command:** *(leave empty)*
-   - **Build output directory:** `/` (or root `.`)
-5. Click **Save and Deploy**. Cloudflare will deploy the specimen globally to `*.pages.dev`.
-
-### Method 2: Direct Upload via Wrangler CLI
-```bash
-# Log in to Cloudflare
-npx wrangler login
-
-# Deploy current folder directly to Cloudflare Pages
-npx wrangler pages deploy . --project-name=soharab
-```
-
-### Custom Edge Headers (`_headers`)
-A `_headers` file is provided in this project to configure:
-- **CORS:** Allows other web domains to embed `Soharab-VF.ttf` via `@font-face` without cross-origin blocks.
-- **Cache-Control:** Long-lived 1-year immutable caching for static font assets (`public, max-age=31536000, immutable`).
-- **Security:** Standard security headers (`X-Content-Type-Options: nosniff`, `Referrer-Policy`).
-
----
-
-## 📁 Repository Structure
-
-```
-soharab-cloudflare-pages/
-├── .agents/
-│   └── skills/
-│       ├── cloudflare-pages/
-│       │   └── SKILL.md             # Cloudflare Pages deployment & edge rules
-│       ├── font-engineering/
-│       │   └── SKILL.md             # WOFF2 compression, subsetting & fonttools
-│       └── specimen-auditing/
-│           └── SKILL.md             # Typography UX, a11y & visual testing
-├── Soharab-VF.ttf                   # Variable font file (axes: wght 100-900, slnt -12°-0°)
-├── Soharab.ttf                      # Static regular font file (weight 400)
-├── index.html                       # Apple-inspired interactive specimen web app
-├── product.md                       # Comprehensive product specification & architecture
-├── readme.md                        # Project documentation & developer guide
-└── _headers                         # Cloudflare Pages headers (CORS, cache-control)
-```
-
----
-
 ## 📄 License & Terms of Use
 
 Designed by [Sohrab Zia](https://sohrabzia.github.io/).
