@@ -74,6 +74,11 @@ soharab-cloudflare-pages/
 ├── Soharab-VF.ttf        # Primary variable font asset (44 KB)
 ├── Soharab.ttf           # Fallback static regular font asset (13 KB)
 ├── index.html            # Single-page responsive interactive specimen application
+├── FAVICON.png           # 512x512 PNG favicon, touch icon, and OG share preview
+├── llms.txt              # Standard LLM/AI machine-readable summary
+├── llms-full.txt         # Comprehensive AI technical specification
+├── robots.txt            # Search and AI crawler permissions
+├── sitemap.xml           # XML sitemap with image metadata
 ├── product.md            # Product specification and architectural documentation
 ├── readme.md             # Developer quickstart, integration guide, and deployment
 └── _headers              # Cloudflare Pages edge caching and security headers
