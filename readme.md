@@ -70,7 +70,21 @@ Punctuation: [space] ! " ' ( ) , - . / : ; ?
 
 ## 🌐 Web Integration & Usage
 
-### 1. `@font-face` CSS Declaration
+### 1. Quick Embed via jsDelivr CDN
+
+Include Soharab directly in your HTML `<head>` with zero setup:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@soharabzia/soharab-typeface/soharab.css">
+```
+
+Or import it directly in your CSS:
+
+```css
+@import url('https://cdn.jsdelivr.net/npm/@soharabzia/soharab-typeface/soharab.css');
+```
+
+### 2. `@font-face` CSS Declaration (Self-Hosted)
 
 Add the font definition to your CSS stylesheet:
 
@@ -93,7 +107,7 @@ Add the font definition to your CSS stylesheet:
 }
 ```
 
-### 2. Applying Variations in CSS
+### 3. Applying Variations in CSS
 
 ```css
 /* Base usage */
@@ -110,7 +124,7 @@ Add the font definition to your CSS stylesheet:
 }
 ```
 
-### 3. Tailwind CSS Configuration
+### 4. Tailwind CSS Configuration
 
 Extend your `tailwind.config.js`:
 

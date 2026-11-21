@@ -26,7 +26,7 @@ The product serves two parallel purposes:
 | Persona | Primary Goal | Key Features Used |
 | :--- | :--- | :--- |
 | **Product & UI/UX Designers** | Evaluate letterforms, hierarchy, and slant dynamics for interface mockups. | Interactive Hero, Type Tester presets, Named Instances Waterfall, Dark/Light Mode. |
-| **Frontend Engineers** | Integrate the font into web applications with minimal performance overhead. | One-click CSS Embed snippet, variable font settings generator, Cloudflare CDN distribution. |
+| **Frontend Engineers** | Integrate the font into web applications with minimal performance overhead. | One-click CSS Embed snippet, jsDelivr CDN link, variable font settings generator, Cloudflare CDN distribution. |
 | **Type Enthusiasts & Students** | Inspect character anatomy, unicode mappings, and variable axis limits. | 75-Glyph Character Inspector with baseline/centerline grid and unicode/entity metadata. |
 | **Desktop / Mobile End-Users** | Install the font locally on macOS, Windows, or iOS devices. | Download cards with byte size indicators, cross-platform step-by-step install instructions. |
 

@@ -1,0 +1,24 @@
+{
+  "name": "@soharabzia/soharab-typeface",
+  "version": "1.0.1",
+  "description": "Continuous variable handwriting typeface created by Sohrab Zia",
+  "main": "soharab.css",
+  "style": "soharab.css",
+  "files": [
+    "Soharab-VF.ttf",
+    "Soharab.ttf",
+    "soharab.css"
+  ],
+  "keywords": [
+    "font",
+    "typeface",
+    "variable-font",
+    "handwriting",
+    "typography"
+  ],
+  "author": "Sohrab Zia",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohrabzia/Soharab-Typeface.git"
+  }
+}

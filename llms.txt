@@ -21,6 +21,17 @@
 - **Deployment Platform:** Cloudflare Pages (Global Anycast Edge CDN)
 
 ## CSS Quickstart
+
+### jsDelivr CDN (HTML & CSS)
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@soharabzia/soharab-typeface/soharab.css">
+```
+Or in CSS:
+```css
+@import url('https://cdn.jsdelivr.net/npm/@soharabzia/soharab-typeface/soharab.css');
+```
+
+### Self-Hosted @font-face
 ```css
 /* Variable Font Declaration */
 @font-face {

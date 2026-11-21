@@ -14,6 +14,11 @@
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
 
+/*.css
+  Access-Control-Allow-Origin: *
+  Content-Type: text/css; charset=utf-8
+  Cache-Control: public, max-age=86400
+
 /robots.txt
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=86400

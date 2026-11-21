@@ -69,7 +69,17 @@ Originating from direct pen-on-paper handwriting digitized into scalable TrueTyp
 
 ## 5. Implementation & Code Examples
 
-### 5.1 Web CSS Embedding
+### 5.1 jsDelivr CDN Embed
+```html
+<!-- HTML embed -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@soharabzia/soharab-typeface/soharab.css">
+```
+```css
+/* CSS import */
+@import url('https://cdn.jsdelivr.net/npm/@soharabzia/soharab-typeface/soharab.css');
+```
+
+### 5.2 Web CSS Embedding (Self-Hosted)
 ```css
 @font-face {
   font-family: 'Soharab';
@@ -95,7 +105,7 @@ Originating from direct pen-on-paper handwriting digitized into scalable TrueTyp
 }
 ```
 
-### 5.2 Tailwind CSS Configuration (v3 & v4)
+### 5.3 Tailwind CSS Configuration (v3 & v4)
 ```javascript
 // tailwind.config.js
 module.exports = {
