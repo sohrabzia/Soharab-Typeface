@@ -1,0 +1,29 @@
+FONTLOG for the Soharab font
+
+This file provides detailed information on the Soharab Font Software.
+This information should be distributed along with the Soharab fonts
+and any derivative works.
+
+Basic Font Information
+
+Soharab is an authentic, expressive handwriting variable typeface designed
+by Sohrab Zia. Captured directly from physical pen-on-paper handwriting
+and digitized into continuous OpenType variation axes for pen pressure weight
+(100 to 900) and slant (-12 to 0 degrees).
+
+ChangeLog
+
+21 November 2026 (Sohrab Zia) Soharab Version 1.0.1
+- Google Fonts packaging, OFL 1.1 licensing, and METADATA.pb specification.
+- Direct jsDelivr CDN and npm package release.
+- 75 glyphs supporting uppercase, lowercase, numbers, and basic punctuation.
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Sohrab Zia
+E: ziasohrab@gmail.com
+W: https://sohrabzia.github.io/
+D: Original Typeface Designer & Developer

@@ -99,7 +99,7 @@
           "name": "Sohrab Zia",
           "url": "https://sohrabzia.github.io/"
         },
-        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license": "https://openfontlicense.org",
         "offers": {
           "@type": "Offer",
           "price": "0.00",
@@ -583,29 +583,155 @@
         </div>
       </div>
 
-      <!-- Minimal Summary & Download -->
-      <div
-        class="flex flex-col sm:flex-row sm:items-center justify-between gap-6 pt-4 border-t border-black/[0.06] dark:border-white/[0.06]">
-        <p class="text-sm text-black/60 dark:text-white/60 max-w-md leading-relaxed">
-          A continuous variable handwriting typeface by <a href="https://sohrabzia.github.io/"
-            target="_blank" rel="noopener noreferrer"
-            class="underline underline-offset-4 hover:text-black dark:hover:text-white font-medium">Sohrab Zia</a>. Free for personal and commercial use.
-        </p>
+      <!-- Hero Quick Access Hub: Download & Web Embed CDN -->
+      <div class="pt-6 border-t border-black/[0.06] dark:border-white/[0.06]">
 
-        <div class="flex flex-wrap items-center gap-2.5 shrink-0">
-          <button id="downloadVfHero" type="button"
-            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-xs font-semibold bg-[#1A1816] text-[#FAF7F0] dark:bg-[#FAF7F0] dark:text-[#1A1816] hover:opacity-90 transition-opacity">
-            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-              <path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" />
-            </svg>
-            <span>Variable Font (.ttf)</span>
-            <span class="text-[10px] opacity-60 font-mono">44 KB</span>
-          </button>
-          <button id="downloadStaticHero" type="button"
-            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-xs font-medium border border-black/15 dark:border-white/15 bg-black/[0.02] dark:bg-white/[0.04] hover:bg-black/[0.06] dark:hover:bg-white/[0.08] transition-colors">
-            <span>Static Regular (.ttf)</span>
-            <span class="text-[10px] opacity-60 font-mono">13 KB</span>
-          </button>
+        <!-- Typeface Summary & License Badges -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-5">
+          <p class="text-sm text-black/70 dark:text-white/70 leading-relaxed max-w-xl">
+            A continuous handwriting variable typeface by <a href="https://sohrabzia.github.io/"
+              target="_blank" rel="noopener noreferrer"
+              class="underline underline-offset-4 hover:text-black dark:hover:text-white font-medium">Sohrab Zia</a>.
+            Authentic stroke variation captured from physical pen-on-paper.
+          </p>
+          <div class="flex flex-wrap items-center gap-2 shrink-0">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-800 dark:text-emerald-300 border border-emerald-500/20">
+              <svg class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
+              </svg>
+              <span>100% Free · Commercial &amp; Personal</span>
+            </span>
+            <span class="hidden sm:inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-mono text-black/55 dark:text-white/55 bg-black/[0.03] dark:bg-white/[0.05] border border-black/[0.06] dark:border-white/[0.08]">
+              No Royalty · CC0 / Public Domain
+            </span>
+          </div>
+        </div>
+
+        <!-- Action Cards Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
+
+          <!-- Card 1: Download TTF Files -->
+          <div class="rounded-2xl border border-black/[0.09] dark:border-white/[0.09] bg-white/75 dark:bg-[#181614]/75 backdrop-blur-md p-5 sm:p-6 flex flex-col justify-between shadow-xs transition-all hover:border-black/20 dark:hover:border-white/20">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <div class="flex items-center gap-2.5">
+                  <div class="w-8 h-8 rounded-xl bg-black/[0.05] dark:bg-white/[0.08] flex items-center justify-center text-black/80 dark:text-white/80">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="text-sm font-bold text-black dark:text-white leading-tight">Download Font Files</h3>
+                    <p class="text-[11px] text-black/50 dark:text-white/50">For Figma, Photoshop, Word, macOS, Windows &amp; iOS</p>
+                  </div>
+                </div>
+                <span class="px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-black/[0.04] dark:bg-white/[0.06] text-black/70 dark:text-white/70 border border-black/[0.06] dark:border-white/[0.08]">TrueType (.ttf)</span>
+              </div>
+
+              <!-- Download Buttons -->
+              <div class="space-y-2.5 my-4">
+                <!-- Variable Download Button -->
+                <button id="downloadVfHero" type="button"
+                  class="group w-full flex items-center justify-between p-3.5 rounded-xl bg-[#1A1816] text-[#FAF7F0] dark:bg-[#FAF7F0] dark:text-[#1A1816] hover:opacity-95 hover:shadow-sm active:scale-[0.99] transition-all">
+                  <div class="flex items-center gap-3 text-left">
+                    <div class="w-8 h-8 rounded-lg bg-white/10 dark:bg-black/10 flex items-center justify-center shrink-0">
+                      <svg class="w-4 h-4 transition-transform group-hover:translate-y-0.5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" />
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="text-xs font-bold leading-tight flex items-center gap-1.5">
+                        <span>Variable Font</span>
+                        <span class="px-1.5 py-0.5 rounded text-[10px] font-semibold bg-amber-500/25 text-amber-200 dark:text-amber-900 border border-amber-500/35">Recommended</span>
+                      </div>
+                      <div class="text-[11px] opacity-75 font-mono mt-0.5">Soharab-VF.ttf · wght 100–900 · slnt -12°–0°</div>
+                    </div>
+                  </div>
+                  <span class="text-xs font-mono font-semibold opacity-90 shrink-0 px-2.5 py-1 rounded bg-white/15 dark:bg-black/15">44 KB</span>
+                </button>
+
+                <!-- Static Download Button -->
+                <button id="downloadStaticHero" type="button"
+                  class="group w-full flex items-center justify-between px-3.5 py-3 rounded-xl border border-black/15 dark:border-white/15 bg-black/[0.02] dark:bg-white/[0.04] hover:bg-black/[0.06] dark:hover:bg-white/[0.08] active:scale-[0.99] transition-all text-black/85 dark:text-white/85">
+                  <div class="flex items-center gap-3 text-left">
+                    <div class="w-8 h-8 rounded-lg bg-black/[0.04] dark:bg-white/[0.06] flex items-center justify-center shrink-0 text-black/60 dark:text-white/60">
+                      <svg class="w-4 h-4 transition-transform group-hover:translate-y-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" />
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="text-xs font-semibold leading-tight">Static Regular Cut</div>
+                      <div class="text-[11px] text-black/50 dark:text-white/50 font-mono mt-0.5">Soharab.ttf · Fixed 400 weight (Legacy support)</div>
+                    </div>
+                  </div>
+                  <span class="text-xs font-mono text-black/50 dark:text-white/50 shrink-0 px-2 py-0.5">13 KB</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="pt-3 border-t border-black/[0.06] dark:border-white/[0.06] flex items-center justify-between text-[11px] text-black/55 dark:text-white/55">
+              <span>Instant direct download · Zero registration</span>
+              <a href="#download" class="hover:text-black dark:hover:text-white underline underline-offset-2 transition-colors">OS install instructions &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Card 2: Web Embed via CDN -->
+          <div class="rounded-2xl border border-black/[0.09] dark:border-white/[0.09] bg-white/75 dark:bg-[#181614]/75 backdrop-blur-md p-5 sm:p-6 flex flex-col justify-between shadow-xs transition-all hover:border-black/20 dark:hover:border-white/20">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <div class="flex items-center gap-2.5">
+                  <div class="w-8 h-8 rounded-xl bg-amber-500/10 text-amber-700 dark:text-amber-400 flex items-center justify-center shrink-0">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="text-sm font-bold text-black dark:text-white leading-tight">Web Embed</h3>
+                    <p class="text-[11px] text-black/50 dark:text-white/50">Zero file hosting · Global edge CDN</p>
+                  </div>
+                </div>
+
+                <!-- Tabs: HTML link vs CSS import -->
+                <div class="inline-flex p-0.5 rounded-lg bg-black/[0.05] dark:bg-white/[0.08] border border-black/[0.06] dark:border-white/[0.08] text-xs">
+                  <button id="heroTabLink" type="button" class="px-2.5 py-1 rounded-md text-[11px] font-semibold bg-white dark:bg-[#252321] text-black dark:text-white shadow-xs transition-all">HTML &lt;link&gt;</button>
+                  <button id="heroTabImport" type="button" class="px-2.5 py-1 rounded-md text-[11px] font-medium text-black/60 dark:text-white/60 hover:text-black dark:hover:text-white transition-all">CSS @import</button>
+                </div>
+              </div>
+
+              <!-- Monospace Code Snippet Box with 1-Click Copy -->
+              <div class="relative rounded-xl border border-black/[0.08] dark:border-white/[0.09] bg-[#FAF7F0] dark:bg-[#121110] p-3 mb-2.5">
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <span id="heroEmbedLabel" class="text-[10px] font-mono uppercase tracking-wider text-black/50 dark:text-white/50">HTML &lt;link&gt; tag</span>
+                  <button id="heroCopyEmbedBtn" type="button"
+                    class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-semibold bg-[#1A1816] text-[#FAF7F0] dark:bg-[#FAF7F0] dark:text-[#1A1816] hover:opacity-90 active:scale-95 transition-all shadow-xs">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75" />
+                    </svg>
+                    <span>Copy Code</span>
+                  </button>
+                </div>
+                <pre id="heroEmbedCode" class="font-mono text-[11px] leading-relaxed text-black/85 dark:text-white/85 overflow-x-auto whitespace-pre py-1 selection:bg-amber-500/30">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@soharabzia/soharab-typeface/soharab.css"&gt;</pre>
+              </div>
+
+              <!-- Quick CSS font-family declaration helper -->
+              <div class="flex items-center justify-between gap-2 px-3 py-2 rounded-lg bg-black/[0.03] dark:bg-white/[0.04] border border-black/[0.06] dark:border-white/[0.06] text-xs mb-1">
+                <div class="flex items-center gap-2 overflow-hidden">
+                  <span class="text-[10px] font-mono text-black/50 dark:text-white/50 shrink-0">CSS Rule:</span>
+                  <code id="heroCssRuleCode" class="font-mono text-[11px] text-amber-800 dark:text-amber-300 truncate">font-family: 'Soharab', cursive, sans-serif;</code>
+                </div>
+                <button id="heroCopyCssBtn" type="button" title="Copy font-family CSS declaration"
+                  class="shrink-0 px-2.5 py-0.5 rounded text-[11px] font-medium bg-white dark:bg-[#252321] border border-black/10 dark:border-white/10 hover:bg-black/[0.04] dark:hover:bg-white/[0.08] transition-colors">
+                  Copy
+                </button>
+              </div>
+            </div>
+
+            <div class="pt-3 border-t border-black/[0.06] dark:border-white/[0.06] flex items-center justify-between text-[11px] text-black/55 dark:text-white/55">
+              <span>High-speed CDN via jsDelivr</span>
+              <a href="https://www.jsdelivr.com/package/npm/@soharabzia/soharab-typeface" target="_blank" rel="noopener noreferrer" class="text-amber-700 dark:text-amber-400 hover:underline inline-flex items-center gap-1 font-medium">jsDelivr Package &rarr;</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -1198,7 +1324,6 @@ The quick brown fox jumps over the lazy dog.</textarea>
   <div id="toast" role="status" aria-live="polite"
     class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-5 py-2.5 rounded-xl text-xs font-semibold bg-[#1A1816] text-[#FAF7F0] dark:bg-[#FAF7F0] dark:text-[#1A1816] shadow-xl opacity-0 pointer-events-none transition-all duration-200 translate-y-2 border border-black/10 dark:border-white/10">
   </div>
-  </div>
 
   <script>
     const VF_DATA_URI = "./Soharab-VF.ttf";
@@ -1259,6 +1384,16 @@ The quick brown fox jumps over the lazy dog.</textarea>
       } else {
         fallbackCopy(text, msg);
       }
+    }
+
+    function copyWithFeedback(btn, text, msg) {
+      copyText(text, msg);
+      if (!btn) return;
+      const originalHtml = btn.innerHTML;
+      btn.innerHTML = `<svg class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 inline" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg><span class="text-emerald-700 dark:text-emerald-400 font-semibold">Copied!</span>`;
+      setTimeout(() => {
+        btn.innerHTML = originalHtml;
+      }, 1800);
     }
 
     function fallbackCopy(text, msg) {
@@ -1478,23 +1613,65 @@ The quick brown fox jumps over the lazy dog.</textarea>
       });
     }
 
+    // Hero Web Embed & CDN Controls
+    const heroTabLink = document.getElementById('heroTabLink');
+    const heroTabImport = document.getElementById('heroTabImport');
+    const heroEmbedCode = document.getElementById('heroEmbedCode');
+    const heroEmbedLabel = document.getElementById('heroEmbedLabel');
+    const heroCopyEmbedBtn = document.getElementById('heroCopyEmbedBtn');
+    const heroCopyCssBtn = document.getElementById('heroCopyCssBtn');
+
+    const CDN_LINK_SNIPPET = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@soharabzia/soharab-typeface/soharab.css">';
+    const CDN_IMPORT_SNIPPET = "@import url('https://cdn.jsdelivr.net/npm/@soharabzia/soharab-typeface/soharab.css');";
+
+    if (heroTabLink && heroTabImport && heroEmbedCode) {
+      heroTabLink.addEventListener('click', () => {
+        heroEmbedCode.textContent = CDN_LINK_SNIPPET;
+        if (heroEmbedLabel) heroEmbedLabel.textContent = 'HTML <link> tag';
+        heroTabLink.className = 'px-2.5 py-1 rounded-md text-[11px] font-semibold bg-white dark:bg-[#252321] text-black dark:text-white shadow-xs transition-all';
+        heroTabImport.className = 'px-2.5 py-1 rounded-md text-[11px] font-medium text-black/60 dark:text-white/60 hover:text-black dark:hover:text-white transition-all';
+      });
+
+      heroTabImport.addEventListener('click', () => {
+        heroEmbedCode.textContent = CDN_IMPORT_SNIPPET;
+        if (heroEmbedLabel) heroEmbedLabel.textContent = 'CSS @import Rule';
+        heroTabImport.className = 'px-2.5 py-1 rounded-md text-[11px] font-semibold bg-white dark:bg-[#252321] text-black dark:text-white shadow-xs transition-all';
+        heroTabLink.className = 'px-2.5 py-1 rounded-md text-[11px] font-medium text-black/60 dark:text-white/60 hover:text-black dark:hover:text-white transition-all';
+      });
+    }
+
+    if (heroCopyEmbedBtn) {
+      heroCopyEmbedBtn.addEventListener('click', () => {
+        copyWithFeedback(heroCopyEmbedBtn, heroEmbedCode.textContent.trim(), 'Copied CDN embed code');
+      });
+    }
+
+    if (heroCopyCssBtn) {
+      heroCopyCssBtn.addEventListener('click', () => {
+        copyWithFeedback(heroCopyCssBtn, "font-family: 'Soharab', cursive, sans-serif;", 'Copied font-family CSS');
+      });
+    }
+
     const copyCdnLinkBtn = document.getElementById('copyCdnLinkBtn');
     if (copyCdnLinkBtn) {
       copyCdnLinkBtn.addEventListener('click', () => {
-        copyText(document.getElementById('cdnLinkCode').textContent, 'Copied jsDelivr HTML <link>');
+        copyWithFeedback(copyCdnLinkBtn, document.getElementById('cdnLinkCode').textContent, 'Copied jsDelivr HTML <link>');
       });
     }
 
     const copyCdnImportBtn = document.getElementById('copyCdnImportBtn');
     if (copyCdnImportBtn) {
       copyCdnImportBtn.addEventListener('click', () => {
-        copyText(document.getElementById('cdnImportCode').textContent, 'Copied jsDelivr CSS @import');
+        copyWithFeedback(copyCdnImportBtn, document.getElementById('cdnImportCode').textContent, 'Copied jsDelivr CSS @import');
       });
     }
 
-    document.getElementById('copyCssEmbedBtn').addEventListener('click', () => {
-      copyText(document.getElementById('cssEmbedCode').textContent, 'Copied @font-face CSS');
-    });
+    const copyCssEmbedBtn = document.getElementById('copyCssEmbedBtn');
+    if (copyCssEmbedBtn) {
+      copyCssEmbedBtn.addEventListener('click', () => {
+        copyWithFeedback(copyCssEmbedBtn, document.getElementById('cssEmbedCode').textContent, 'Copied @font-face CSS');
+      });
+    }
 
     // Waterfall
     const waterfallInput = document.getElementById('waterfallText');
