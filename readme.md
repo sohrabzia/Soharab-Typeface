@@ -13,10 +13,8 @@ Features continuous pen pressure weight (`100–900`) and cursive writing slant 
 - **Variable Font File:** [`Soharab-VF.ttf`](./Soharab-VF.ttf) (43.9 KB)
 - **Static Regular Font File:** [`Soharab.ttf`](./Soharab.ttf) (12.6 KB)
 - **Interactive Specimen:** [`index.html`](./index.html)
-- **AI Agent Summary:** [`llms.txt`](./llms.txt)
-- **Full AI Technical Reference:** [`llms-full.txt`](./llms-full.txt)
 - **XML Sitemap:** [`sitemap.xml`](./sitemap.xml)
-- **Product Specification & Architecture:** [`product.md`](./product.md)
+- **License:** [`OFL.txt`](./OFL.txt) (SIL OFL 1.1)
 
 ---
 
