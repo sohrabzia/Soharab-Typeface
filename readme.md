@@ -4,14 +4,14 @@ A personal, expressive free-style handwriting variable typeface and interactive 
 
 Captured directly from natural pen strokes on paper, Soharab brings organic warmth, casual handwriting charm, and dynamic ink variation to modern digital design.
 
-Features continuous pen pressure weight (`100–900`) and cursive writing slant (`-12°–0°`) variation axes, 8 expressive handwriting instances, a 75-character glyph set, an interactive sketchbook lab with notebook paper textures, and instant font downloads.
+Features continuous pen pressure weight (`100–900`) and cursive writing slant (`-12°–0°`) variation axes, 8 expressive handwriting instances, a 185-character glyph set supporting full Google Fonts Latin Core, currency symbols and typography marks, an interactive sketchbook lab with notebook paper textures, and instant font downloads.
 
 ---
 
 ## ⚡ Quick Links
 
-- **Variable Font File:** [`Soharab-VF.ttf`](./Soharab-VF.ttf) (43.9 KB)
-- **Static Regular Font File:** [`Soharab.ttf`](./Soharab.ttf) (12.6 KB)
+- **Variable Font File:** [`Soharab-VF.ttf`](./Soharab-VF.ttf) (~118 KB)
+- **Static Regular Font File:** [`Soharab.ttf`](./Soharab.ttf) (~34 KB)
 - **Interactive Specimen:** [`index.html`](./index.html)
 - **XML Sitemap:** [`sitemap.xml`](./sitemap.xml)
 - **License:** [`OFL.txt`](./OFL.txt) (SIL OFL 1.1)
@@ -21,12 +21,13 @@ Features continuous pen pressure weight (`100–900`) and cursive writing slant 
 ## ✨ Features
 
 - **Authentic Free-Style Handwriting:** Direct vector digitization of authentic hand-drawn lettering.
-- **100% Free for Commercial & Non-Commercial Use:** Free for both commercial and personal projects with zero license fees or royalties.
+- **Full Latin Core Coverage (185 Glyphs):** Supports Basic Latin, Western and Central European accented characters, currency symbols (`$`, `€`, `£`, `¥`), math operators (`+`, `=`, `%`, `±`, `×`, `÷`), and typographic punctuation (`@`, `&`, `©`, `®`, `™`, `•`, `…`, etc.).
+- **100% Free for Commercial & Non-Commercial Use:** Licensed under the SIL Open Font License 1.1.
 - **Continuous 2-Axis Variable Font:** Real-time dynamic control across Pen Pressure / Weight (`wght`: `100` fine nib to `900` marker) and Slant (`slnt`: `-12°` casual cursive tilt to `0°` upright print).
 - **Interactive Sketchbook Lab:** Test arbitrary text in real-time with paper mode selectors (Blank, Ruled Notebook Lines, Dot Grid), adjustable size (`16px–144px`), tracking, and alignment.
 - **One-Click CSS Generator:** Instantly copy exact `font-variation-settings` rules for web projects.
 - **8 Handwriting Expressions Waterfall:** Visual stack previewing Fine Nib, Pencil, Handwriting, Gel Pen, Felt Tip, Marker, Casual Slant, and Expressive Script with live synchronized specimen text.
-- **75-Glyph Character Sheet:** Categorized view (A–Z, a–z, 0–9, punctuation) with an anatomical grid, notebook baseline guides, unicode code points, and HTML entities.
+- **185-Glyph Character Sheet:** Categorized view (A–Z, a–z, Latin Core Accents, 0–9, Symbols & Punctuation) with an anatomical grid, notebook baseline guides, unicode code points, and HTML entities.
 - **Paper & Ink Studio Palette:** Warm tactile paper aesthetic with dark mode support and persistent `localStorage` theme state.
 - **Zero Build Step:** 100% static HTML, CSS, and Vanilla JavaScript—no compilation, bundlers, or package manager required.
 - **Cloudflare Pages Ready:** Out-of-the-box support for Cloudflare Pages edge delivery with optimal caching and CORS font embedding headers.
@@ -37,12 +38,12 @@ Features continuous pen pressure weight (`100–900`) and cursive writing slant 
 
 | Metric | Variable (`Soharab-VF.ttf`) | Static (`Soharab.ttf`) |
 | :--- | :--- | :--- |
-| **File Size** | 43,892 bytes (~43.9 KB) | 12,624 bytes (~12.6 KB) |
+| **File Size** | 117,956 bytes (~118 KB) | 33,716 bytes (~34 KB) |
 | **Format** | TrueType Variable (`.ttf`) | TrueType (`.ttf`) |
 | **Weight Axis (`wght`)** | `100` (Thin) to `900` (Black) | `400` (Regular) |
 | **Slant Axis (`slnt`)** | `-12°` (Oblique/Italic) to `0°` (Upright) | `0°` (Upright) |
 | **Named Instances** | 8 instances | 1 instance |
-| **Glyph Count** | 75 glyphs | 75 glyphs |
+| **Glyph Count** | 185 mapped characters (186 glyphs) | 185 mapped characters (186 glyphs) |
 
 ### Named Instances (Handwriting Expressions)
 
@@ -55,13 +56,16 @@ Features continuous pen pressure weight (`100–900`) and cursive writing slant 
 7. **Casual Slant:** `wght: 400`, `slnt: -12°`
 8. **Expressive Script:** `wght: 700`, `slnt: -12°`
 
-### Supported Glyph Set (75 Characters)
+### Supported Glyph Set (185 Characters)
 
 ```
-Uppercase:   A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Lowercase:   a b c d e f g h i j k l m n o p q r s t u v w x y z
-Numerals:    0 1 2 3 4 5 6 7 8 9
-Punctuation: [space] ! " ' ( ) , - . / : ; ?
+Basic Uppercase (26):  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Basic Lowercase (26):  a b c d e f g h i j k l m n o p q r s t u v w x y z
+Accented Upper (35):   À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý Þ ß Œ Š Ÿ Ž
+Accented Lower (35):   à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ø ù ú û ü ý þ ÿ ı œ š ž
+Numerals (10):         0 1 2 3 4 5 6 7 8 9
+Symbols & Punct (53):  [space] ! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _ ` { | } ~
+                       ¡ £ ¥ © ® ° ± ¿ × ÷ – — ‘ ’ “ ” • … € ™
 ```
 
 ---

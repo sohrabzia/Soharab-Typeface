@@ -13,6 +13,11 @@ and digitized into continuous OpenType variation axes for pen pressure weight
 
 ChangeLog
 
+26 November 2026 (Sohrab Zia) Soharab Version 1.0.2
+- Full Latin Core glyphset expansion: 185 mapped characters (186 glyphs).
+- Added complete Western & Central European accented characters (70 glyphs: À–ÿ, Œ, œ, Š, š, Ž, ž, etc.).
+- Added currency symbols ($, €, £, ¥), math operators (+, =, %, ±, ×, ÷), and typography marks (@, &, ©, ®, ™, •, …, dashes).
+
 21 November 2026 (Sohrab Zia) Soharab Version 1.0.1
 - Google Fonts packaging, OFL 1.1 licensing, and METADATA.pb specification.
 - Direct jsDelivr CDN and npm package release.
