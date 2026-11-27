@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ydieresis" format="2">
+  <advance width="449"/>
+  <unicode hex="00FF"/>
+  <outline>
+    <contour>
+      <point x="400" y="464" type="qcurve"/>
+      <point x="406" y="458"/>
+      <point x="411" y="437"/>
+      <point x="391" y="344"/>
+      <point x="315" y="145"/>
+      <point x="223" y="-86"/>
+      <point x="198" y="-137"/>
+      <point x="174" y="-177"/>
+      <point x="104" y="-235"/>
+      <point x="76" y="-238"/>
+      <point x="55" y="-218"/>
+      <point x="54" y="-194"/>
+      <point x="88" y="-143"/>
+      <point x="135" y="-52"/>
+      <point x="176" y="42"/>
+      <point x="163" y="59"/>
+      <point x="132" y="133"/>
+      <point x="65" y="315"/>
+      <point x="44" y="380"/>
+      <point x="40" y="454"/>
+      <point x="65" y="473"/>
+      <point x="93" y="468"/>
+      <point x="132" y="408"/>
+      <point x="202" y="210"/>
+      <point x="223" y="123"/>
+      <point x="304" y="379"/>
+      <point x="354" y="466"/>
+      <point x="390" y="472"/>
+    </contour>
+    <contour>
+      <point x="321" y="596"/>
+      <point x="336" y="565"/>
+      <point x="326" y="529"/>
+      <point x="295" y="513"/>
+      <point x="258" y="524"/>
+      <point x="243" y="555"/>
+      <point x="253" y="591"/>
+      <point x="284" y="607"/>
+    </contour>
+    <contour>
+      <point x="191" y="596"/>
+      <point x="206" y="565"/>
+      <point x="196" y="529"/>
+      <point x="165" y="513"/>
+      <point x="128" y="524"/>
+      <point x="113" y="555"/>
+      <point x="123" y="591"/>
+      <point x="154" y="607"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>a49b341e3f4d3d301d66eec0d203692df37d39b740a991c95139b186bf5713b27b6fe04c38b68ab44fc5e8022ebcf173ac5429b7fa93f8fdfce5e71d31640ccf</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

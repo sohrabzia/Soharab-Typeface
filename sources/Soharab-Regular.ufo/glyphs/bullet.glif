@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet" format="2">
+  <advance width="162"/>
+  <unicode hex="2022"/>
+  <outline>
+    <contour>
+      <point x="94" y="353"/>
+      <point x="108" y="345"/>
+      <point x="116" y="335"/>
+      <point x="122" y="319"/>
+      <point x="120" y="303"/>
+      <point x="111" y="288"/>
+      <point x="101" y="280"/>
+      <point x="85" y="274"/>
+      <point x="68" y="277"/>
+      <point x="54" y="285"/>
+      <point x="46" y="295"/>
+      <point x="40" y="311"/>
+      <point x="42" y="327"/>
+      <point x="51" y="342"/>
+      <point x="61" y="350"/>
+      <point x="77" y="356"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w162o94+353o108+345o116+335o122+319o120+303o111+288o101+280o85+274o68+277o54+285o46+295o40+311o42+327o51+342o61+350o77+356|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

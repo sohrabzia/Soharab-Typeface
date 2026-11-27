@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessi" format="2">
+  <advance width="130"/>
+  <unicode hex="0131"/>
+  <outline>
+    <contour>
+      <point x="165" y="449"/>
+      <point x="168" y="444"/>
+      <point x="169" y="391"/>
+      <point x="127" y="204"/>
+      <point x="101" y="50"/>
+      <point x="79" y="-7"/>
+      <point x="68" y="-16"/>
+      <point x="60" y="-14"/>
+      <point x="57" y="-9"/>
+      <point x="54" y="40"/>
+      <point x="75" y="167"/>
+      <point x="123" y="391"/>
+      <point x="148" y="444"/>
+      <point x="158" y="451"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w130o165+449o168+444o169+391o127+204o101+50o79-7o68-16o60-14o57-9o54+40o75+167o123+391o148+444o158+451|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash" format="2">
+  <advance width="589"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="44" y="279"/>
+      <point x="99" y="294"/>
+      <point x="331" y="299"/>
+      <point x="490" y="294"/>
+      <point x="546" y="279"/>
+      <point x="548" y="277"/>
+      <point x="549" y="275"/>
+      <point x="543" y="270"/>
+      <point x="490" y="260"/>
+      <point x="255" y="266"/>
+      <point x="99" y="260"/>
+      <point x="43" y="271"/>
+      <point x="41" y="273"/>
+      <point x="40" y="275"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w589o44+279o99+294o331+299o490+294o546+279o548+277o549+275o543+270o490+260o255+266o99+260o43+271o41+273o40+275|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

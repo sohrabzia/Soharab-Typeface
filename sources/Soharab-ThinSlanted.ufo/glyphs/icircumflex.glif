@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="icircumflex" format="2">
+  <advance width="117"/>
+  <unicode hex="00EE"/>
+  <outline>
+    <contour>
+      <point x="154" y="444"/>
+      <point x="155" y="441"/>
+      <point x="156" y="390"/>
+      <point x="114" y="204"/>
+      <point x="88" y="50"/>
+      <point x="67" y="-4"/>
+      <point x="61" y="-10"/>
+      <point x="58" y="-9"/>
+      <point x="57" y="-6"/>
+      <point x="54" y="41"/>
+      <point x="76" y="167"/>
+      <point x="123" y="390"/>
+      <point x="147" y="441"/>
+      <point x="152" y="445"/>
+    </contour>
+    <contour>
+      <point x="98" y="552"/>
+      <point x="146" y="609"/>
+      <point x="173" y="630"/>
+      <point x="198" y="636"/>
+      <point x="206" y="633"/>
+      <point x="220" y="622"/>
+      <point x="233" y="601"/>
+      <point x="254" y="549"/>
+      <point x="257" y="515"/>
+      <point x="255" y="513"/>
+      <point x="252" y="512"/>
+      <point x="227" y="533"/>
+      <point x="204" y="587"/>
+      <point x="187" y="606"/>
+      <point x="162" y="587"/>
+      <point x="116" y="533"/>
+      <point x="84" y="512"/>
+      <point x="80" y="514"/>
+      <point x="80" y="518"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>7fa860ebe8a0c19154f599b510fed8fafa0cfbcb1e9952baba8b6aff62535cf1141ec4a193a4e3db2f9873a4a8fcc66791240bf52dc5e9edec4367fccff874a5</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

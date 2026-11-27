@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="questiondown" format="2">
+  <advance width="444"/>
+  <unicode hex="00BF"/>
+  <outline>
+    <contour>
+      <point x="339" y="474"/>
+      <point x="349" y="456"/>
+      <point x="347" y="381"/>
+      <point x="336" y="340"/>
+      <point x="313" y="300"/>
+      <point x="265" y="233"/>
+      <point x="188" y="144"/>
+      <point x="163" y="109"/>
+      <point x="153" y="88"/>
+      <point x="148" y="69"/>
+      <point x="144" y="41"/>
+      <point x="146" y="18"/>
+      <point x="152" y="-2"/>
+      <point x="170" y="-17"/>
+      <point x="198" y="-27"/>
+      <point x="234" y="-30"/>
+      <point x="254" y="-24"/>
+      <point x="365" y="56"/>
+      <point x="394" y="57"/>
+      <point x="410" y="33"/>
+      <point x="402" y="9"/>
+      <point x="314" y="-85"/>
+      <point x="272" y="-111"/>
+      <point x="249" y="-119"/>
+      <point x="219" y="-124"/>
+      <point x="173" y="-122"/>
+      <point x="138" y="-113"/>
+      <point x="107" y="-98"/>
+      <point x="81" y="-80"/>
+      <point x="62" y="-54"/>
+      <point x="53" y="-29"/>
+      <point x="48" y="11"/>
+      <point x="51" y="52"/>
+      <point x="61" y="98"/>
+      <point x="81" y="141"/>
+      <point x="120" y="194"/>
+      <point x="179" y="259"/>
+      <point x="236" y="338"/>
+      <point x="262" y="386"/>
+      <point x="283" y="457"/>
+      <point x="312" y="479"/>
+    </contour>
+    <contour>
+      <point x="379" y="615"/>
+      <point x="393" y="583"/>
+      <point x="375" y="546"/>
+      <point x="338" y="525"/>
+      <point x="304" y="535"/>
+      <point x="290" y="567"/>
+      <point x="307" y="604"/>
+      <point x="344" y="625"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>5cdd5edd30cad4a9512a3d86204590cf118428e705add42b9f0ee9319e4645a5e19140b4f45f23535ef38b6d9abb218ca1336cc11b529018ec7c009173243fff</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

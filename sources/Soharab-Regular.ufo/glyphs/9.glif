@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="9" format="2">
+  <advance width="454"/>
+  <unicode hex="0039"/>
+  <outline>
+    <contour>
+      <point x="246" y="717" type="qcurve"/>
+      <point x="265" y="715"/>
+      <point x="311" y="700"/>
+      <point x="342" y="683"/>
+      <point x="374" y="655"/>
+      <point x="394" y="624"/>
+      <point x="406" y="588"/>
+      <point x="413" y="547"/>
+      <point x="416" y="492"/>
+      <point x="410" y="271"/>
+      <point x="400" y="184"/>
+      <point x="385" y="119"/>
+      <point x="362" y="64"/>
+      <point x="342" y="32"/>
+      <point x="322" y="8"/>
+      <point x="285" y="-21"/>
+      <point x="256" y="-32"/>
+      <point x="242" y="-34"/>
+      <point x="199" y="-29"/>
+      <point x="120" y="-5"/>
+      <point x="113" y="0"/>
+      <point x="112" y="7"/>
+      <point x="117" y="14"/>
+      <point x="125" y="16"/>
+      <point x="212" y="0"/>
+      <point x="233" y="0"/>
+      <point x="247" y="4"/>
+      <point x="270" y="18"/>
+      <point x="286" y="35"/>
+      <point x="323" y="88"/>
+      <point x="345" y="145"/>
+      <point x="358" y="208"/>
+      <point x="368" y="308"/>
+      <point x="371" y="460"/>
+      <point x="330" y="386"/>
+      <point x="303" y="355"/>
+      <point x="281" y="342"/>
+      <point x="250" y="331"/>
+      <point x="222" y="327"/>
+      <point x="188" y="328"/>
+      <point x="158" y="334"/>
+      <point x="131" y="345"/>
+      <point x="108" y="361"/>
+      <point x="86" y="384"/>
+      <point x="53" y="437"/>
+      <point x="41" y="473"/>
+      <point x="38" y="502"/>
+      <point x="41" y="548"/>
+      <point x="51" y="591"/>
+      <point x="63" y="624"/>
+      <point x="84" y="659"/>
+      <point x="102" y="677"/>
+      <point x="138" y="698"/>
+      <point x="178" y="712"/>
+      <point x="227" y="719"/>
+    </contour>
+    <contour>
+      <point x="238" y="670" type="qcurve"/>
+      <point x="216" y="672"/>
+      <point x="185" y="667"/>
+      <point x="154" y="655"/>
+      <point x="132" y="642"/>
+      <point x="119" y="629"/>
+      <point x="106" y="607"/>
+      <point x="96" y="581"/>
+      <point x="84" y="517"/>
+      <point x="84" y="492"/>
+      <point x="92" y="464"/>
+      <point x="105" y="436"/>
+      <point x="128" y="406"/>
+      <point x="149" y="388"/>
+      <point x="170" y="379"/>
+      <point x="195" y="374"/>
+      <point x="233" y="374"/>
+      <point x="261" y="378"/>
+      <point x="279" y="385"/>
+      <point x="292" y="394"/>
+      <point x="312" y="417"/>
+      <point x="359" y="486"/>
+      <point x="370" y="496"/>
+      <point x="364" y="565"/>
+      <point x="347" y="614"/>
+      <point x="332" y="632"/>
+      <point x="312" y="648"/>
+      <point x="288" y="660"/>
+      <point x="260" y="669"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4bd32dd669bb741062a6d8652e67db50ee7706454d08b289642b1a1fee846922fbe3ee5b22080002f4a7554f5e5fc3d0530252a4714de99c93ae1d9160ac7994</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

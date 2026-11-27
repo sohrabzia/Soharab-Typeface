@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar" format="2">
+  <advance width="116"/>
+  <unicode hex="007C"/>
+  <outline>
+    <contour>
+      <point x="219" y="729"/>
+      <point x="220" y="726"/>
+      <point x="215" y="716"/>
+      <point x="218" y="707"/>
+      <point x="214" y="696"/>
+      <point x="216" y="688"/>
+      <point x="212" y="678"/>
+      <point x="214" y="669"/>
+      <point x="210" y="658"/>
+      <point x="212" y="649"/>
+      <point x="206" y="612"/>
+      <point x="145" y="348"/>
+      <point x="69" y="-31"/>
+      <point x="57" y="-59"/>
+      <point x="57" y="-69"/>
+      <point x="51" y="-78"/>
+      <point x="51" y="-88"/>
+      <point x="46" y="-96"/>
+      <point x="45" y="-107"/>
+      <point x="38" y="-116"/>
+      <point x="40" y="-125"/>
+      <point x="34" y="-130"/>
+      <point x="32" y="-129"/>
+      <point x="30" y="-126"/>
+      <point x="35" y="-116"/>
+      <point x="32" y="-107"/>
+      <point x="36" y="-97"/>
+      <point x="33" y="-88"/>
+      <point x="36" y="-78"/>
+      <point x="34" y="-69"/>
+      <point x="39" y="-59"/>
+      <point x="37" y="-31"/>
+      <point x="91" y="239"/>
+      <point x="178" y="631"/>
+      <point x="191" y="659"/>
+      <point x="191" y="669"/>
+      <point x="197" y="678"/>
+      <point x="198" y="688"/>
+      <point x="205" y="697"/>
+      <point x="205" y="707"/>
+      <point x="212" y="716"/>
+      <point x="211" y="725"/>
+      <point x="216" y="730"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>c582e8f70b1fcd63af4ce26daf342dbd0c85fa98b958173013e94c66e5bf66c17e85a5e869601ba1d2d76987d8140141f339778541c2c7972530a576cf67a2ea</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

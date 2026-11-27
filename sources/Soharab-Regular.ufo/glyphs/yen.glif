@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yen" format="2">
+  <advance width="482"/>
+  <unicode hex="00A5"/>
+  <outline>
+    <contour>
+      <point x="57" y="699"/>
+      <point x="94" y="656"/>
+      <point x="241" y="375"/>
+      <point x="388" y="656"/>
+      <point x="425" y="699"/>
+      <point x="435" y="700"/>
+      <point x="442" y="692"/>
+      <point x="429" y="636"/>
+      <point x="286" y="363"/>
+      <point x="261" y="336"/>
+      <point x="360" y="330"/>
+      <point x="400" y="311"/>
+      <point x="402" y="303"/>
+      <point x="397" y="296"/>
+      <point x="360" y="284"/>
+      <point x="263" y="289"/>
+      <point x="262" y="216"/>
+      <point x="360" y="210"/>
+      <point x="397" y="194"/>
+      <point x="402" y="183"/>
+      <point x="395" y="175"/>
+      <point x="360" y="164"/>
+      <point x="261" y="168"/>
+      <point x="262" y="25"/>
+      <point x="251" y="-14"/>
+      <point x="243" y="-21"/>
+      <point x="232" y="-16"/>
+      <point x="218" y="25"/>
+      <point x="215" y="168"/>
+      <point x="122" y="164"/>
+      <point x="87" y="175"/>
+      <point x="80" y="183"/>
+      <point x="85" y="194"/>
+      <point x="122" y="210"/>
+      <point x="215" y="215"/>
+      <point x="216" y="288"/>
+      <point x="122" y="284"/>
+      <point x="85" y="296"/>
+      <point x="80" y="303"/>
+      <point x="82" y="311"/>
+      <point x="122" y="330"/>
+      <point x="221" y="336"/>
+      <point x="196" y="363"/>
+      <point x="53" y="636"/>
+      <point x="40" y="688"/>
+      <point x="42" y="696"/>
+      <point x="49" y="701"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>f14d19dd42b3643a93acb51e4c738a7b105714d1de3a662b7a7bc1fb1f7a768c62be1c27169bd1e23c2b485d759da3ad23f76125219d7f3327a82a4655d8339e</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

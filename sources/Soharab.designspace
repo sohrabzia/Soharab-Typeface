@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400"/>
+    <axis tag="slnt" name="Slant" minimum="-12" maximum="0" default="0"/>
+  </axes>
+  <sources>
+    <source filename="Soharab-Thin.ufo" name="Soharab Thin" familyname="Soharab" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Soharab-Regular.ufo" name="Soharab Regular" familyname="Soharab" stylename="Regular">
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Soharab-Black.ufo" name="Soharab Black" familyname="Soharab" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Soharab-ThinSlanted.ufo" name="Soharab Thin Slanted" familyname="Soharab" stylename="Thin Slanted">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="-12"/>
+      </location>
+    </source>
+    <source filename="Soharab-Slanted.ufo" name="Soharab Slanted" familyname="Soharab" stylename="Slanted">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="-12"/>
+      </location>
+    </source>
+    <source filename="Soharab-BlackSlanted.ufo" name="Soharab Black Slanted" familyname="Soharab" stylename="Black Slanted">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="-12"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Soharab Thin" familyname="Soharab" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="Soharab Light" familyname="Soharab" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="Soharab Regular" familyname="Soharab" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="Soharab Medium" familyname="Soharab" stylename="Medium">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="Soharab Bold" familyname="Soharab" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="Soharab Black" familyname="Soharab" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="Soharab Italic" familyname="Soharab" stylename="Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="-12"/>
+      </location>
+    </instance>
+    <instance name="Soharab Bold Italic" familyname="Soharab" stylename="Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="-12"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

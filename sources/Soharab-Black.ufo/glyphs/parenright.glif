@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright" format="2">
+  <advance width="301"/>
+  <unicode hex="0029"/>
+  <outline>
+    <contour>
+      <point x="91" y="746" type="qcurve"/>
+      <point x="101" y="741"/>
+      <point x="177" y="648"/>
+      <point x="200" y="608"/>
+      <point x="220" y="561"/>
+      <point x="237" y="496"/>
+      <point x="248" y="438"/>
+      <point x="256" y="326"/>
+      <point x="253" y="220"/>
+      <point x="248" y="163"/>
+      <point x="237" y="105"/>
+      <point x="221" y="41"/>
+      <point x="200" y="-11"/>
+      <point x="175" y="-60"/>
+      <point x="104" y="-159"/>
+      <point x="83" y="-170"/>
+      <point x="52" y="-157"/>
+      <point x="45" y="-128"/>
+      <point x="90" y="-18"/>
+      <point x="124" y="50"/>
+      <point x="146" y="121"/>
+      <point x="159" y="222"/>
+      <point x="162" y="317"/>
+      <point x="154" y="430"/>
+      <point x="138" y="508"/>
+      <point x="113" y="570"/>
+      <point x="97" y="598"/>
+      <point x="45" y="707"/>
+      <point x="49" y="731"/>
+      <point x="73" y="750"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>89c4b4de0fb226b0aed6f3205b9e0bc7abb234684ed890a9a5fcd850d4d6c8e6e5858582deca6005639c102f278234cff3e619b2f0f9dac7052f73366ba51b3b</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

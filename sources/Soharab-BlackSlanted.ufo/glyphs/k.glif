@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k" format="2">
+  <advance width="447"/>
+  <unicode hex="006B"/>
+  <outline>
+    <contour>
+      <point x="251" y="743" type="qcurve"/>
+      <point x="263" y="740"/>
+      <point x="276" y="717"/>
+      <point x="272" y="707"/>
+      <point x="274" y="701"/>
+      <point x="271" y="688"/>
+      <point x="269" y="633"/>
+      <point x="213" y="391"/>
+      <point x="177" y="279"/>
+      <point x="254" y="347"/>
+      <point x="382" y="449"/>
+      <point x="439" y="474"/>
+      <point x="469" y="463"/>
+      <point x="471" y="432"/>
+      <point x="434" y="383"/>
+      <point x="339" y="305"/>
+      <point x="263" y="258"/>
+      <point x="274" y="260"/>
+      <point x="325" y="168"/>
+      <point x="394" y="56"/>
+      <point x="408" y="-5"/>
+      <point x="400" y="-26"/>
+      <point x="379" y="-42"/>
+      <point x="355" y="-43"/>
+      <point x="328" y="-24"/>
+      <point x="303" y="4"/>
+      <point x="188" y="201"/>
+      <point x="195" y="211"/>
+      <point x="194" y="200"/>
+      <point x="171" y="195"/>
+      <point x="154" y="84"/>
+      <point x="143" y="48"/>
+      <point x="128" y="12"/>
+      <point x="125" y="-1"/>
+      <point x="120" y="-7"/>
+      <point x="118" y="-21"/>
+      <point x="97" y="-40"/>
+      <point x="73" y="-43"/>
+      <point x="53" y="-23"/>
+      <point x="57" y="-7"/>
+      <point x="54" y="-2"/>
+      <point x="56" y="6"/>
+      <point x="54" y="13"/>
+      <point x="56" y="67"/>
+      <point x="123" y="402"/>
+      <point x="177" y="633"/>
+      <point x="197" y="687"/>
+      <point x="202" y="694"/>
+      <point x="204" y="702"/>
+      <point x="208" y="707"/>
+      <point x="209" y="717"/>
+      <point x="236" y="743"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ec5595bfcca8c30860e1a78dd60a28d35279e41f9270ff9bcc9e5e1e927f81de0189bdd89a6d694cac25aee679e40c4325e194bb5ff398193ef486a457a5ee03</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

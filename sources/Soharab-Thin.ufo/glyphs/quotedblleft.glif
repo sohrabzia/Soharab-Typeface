@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblleft" format="2">
+  <advance width="269"/>
+  <unicode hex="201C"/>
+  <outline>
+    <contour>
+      <point x="229" y="695"/>
+      <point x="226" y="670"/>
+      <point x="204" y="638"/>
+      <point x="189" y="606"/>
+      <point x="181" y="524"/>
+      <point x="169" y="504"/>
+      <point x="163" y="500"/>
+      <point x="161" y="503"/>
+      <point x="150" y="528"/>
+      <point x="150" y="570"/>
+      <point x="157" y="614"/>
+      <point x="175" y="655"/>
+      <point x="196" y="684"/>
+      <point x="204" y="690"/>
+      <point x="225" y="700"/>
+    </contour>
+    <contour>
+      <point x="119" y="695"/>
+      <point x="116" y="670"/>
+      <point x="94" y="638"/>
+      <point x="79" y="606"/>
+      <point x="71" y="524"/>
+      <point x="59" y="504"/>
+      <point x="53" y="500"/>
+      <point x="51" y="503"/>
+      <point x="40" y="528"/>
+      <point x="40" y="570"/>
+      <point x="47" y="614"/>
+      <point x="65" y="655"/>
+      <point x="86" y="684"/>
+      <point x="94" y="690"/>
+      <point x="115" y="700"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>468698c7cfe12a454b49e9fc7717bcfa3c2a43793e4a0d94727538012773317920d8014f8420850e97d9fb01c2df8c6fc63cc5912ec9b3d7be705da1c27033a7</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

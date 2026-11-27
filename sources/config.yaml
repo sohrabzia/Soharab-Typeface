@@ -1,0 +1,9 @@
+sources:
+  - Soharab.designspace
+familyName: Soharab
+buildVariable: true
+buildStatic: true
+variableFiles:
+  - Soharab[slnt,wght].ttf
+instances:
+  - Soharab-Regular.ttf

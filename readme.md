@@ -196,6 +196,40 @@ npx wrangler pages dev .
 
 ---
 
+## 🛠 Building From Sources
+
+The typeface sources are located in the [`sources/`](./sources/) directory in standard open-source formats conforming to Google Fonts specifications:
+
+- **Glyphs format:** [`sources/Soharab.glyphs`](./sources/Soharab.glyphs) (multi-master Glyphs 3 file)
+- **DesignSpace format:** [`sources/Soharab.designspace`](./sources/Soharab.designspace) with 6 UFO masters:
+  - `Soharab-Thin.ufo`
+  - `Soharab-Regular.ufo` (base default master)
+  - `Soharab-Black.ufo`
+  - `Soharab-ThinSlanted.ufo`
+  - `Soharab-Slanted.ufo`
+  - `Soharab-BlackSlanted.ufo`
+- **TTX OpenType XML:** [`sources/Soharab-VF.ttx`](./sources/Soharab-VF.ttx)
+- **Build config:** [`sources/config.yaml`](./sources/config.yaml) for `gftools-builder`
+
+To compile the variable and static font binaries using `fontmake`:
+
+```bash
+cd sources
+./build.sh
+```
+
+Or run `fontmake` directly:
+
+```bash
+# Variable font
+fontmake -m sources/Soharab.designspace -o variable --output-path fonts/variable/Soharab[slnt,wght].ttf
+
+# Static Regular TTF
+fontmake -u sources/Soharab-Regular.ufo -o ttf --output-path fonts/ttf/Soharab-Regular.ttf
+```
+
+---
+
 ## 📄 License & Terms of Use
 
 Designed by [Sohrab Zia](https://sohrabzia.github.io/).

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="191"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="121" y="69" type="qcurve"/>
+      <point x="135" y="65"/>
+      <point x="149" y="51"/>
+      <point x="152" y="28"/>
+      <point x="138" y="-5"/>
+      <point x="118" y="-21"/>
+      <point x="95" y="-28"/>
+      <point x="66" y="-21"/>
+      <point x="52" y="-7"/>
+      <point x="49" y="16"/>
+      <point x="63" y="49"/>
+      <point x="83" y="65"/>
+      <point x="106" y="72"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w191q121+69o135+65o149+51o152+28o138-5o118-21o95-28o66-21o52-7o49+16o63+49o83+65o106+72|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

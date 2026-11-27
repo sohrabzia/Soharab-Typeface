@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdown" format="2">
+  <advance width="132"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="171" y="454"/>
+      <point x="174" y="447"/>
+      <point x="171" y="383"/>
+      <point x="127" y="193"/>
+      <point x="91" y="16"/>
+      <point x="67" y="-47"/>
+      <point x="56" y="-56"/>
+      <point x="49" y="-54"/>
+      <point x="46" y="-49"/>
+      <point x="43" y="7"/>
+      <point x="61" y="99"/>
+      <point x="125" y="383"/>
+      <point x="152" y="447"/>
+      <point x="163" y="456"/>
+    </contour>
+    <contour>
+      <point x="208" y="596"/>
+      <point x="215" y="579"/>
+      <point x="206" y="560"/>
+      <point x="187" y="549"/>
+      <point x="169" y="554"/>
+      <point x="161" y="571"/>
+      <point x="170" y="590"/>
+      <point x="190" y="601"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>f6f4a1daa555a516a08b1e830e9bafa1c00bf3c6378345ba3167248bc3a596a6980e768a9ef9607ee8fa1957066771a18eed680205712dc2d58078d46ab08320</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
